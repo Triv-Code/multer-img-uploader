@@ -12,5 +12,3 @@ const fileStorageEngine = multer.diskStorage({
 const upload = multer({ storage: fileStorageEngine });
 
 module.exports.upload = upload;
-
-// https://www.youtube.com/watch?v=EVOFt8Its6I
